@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="place_holder2">
+        <div class="board_holder">
+            <table class="board">
+                
+            </table>
+            </table>
+        </div>
+    </div>
+    <div class="container" id="container">
+        <span class="heading">Knight</span>
+        <span class="heading">Path</span>
+        <span class="heading">Visualiser</span>
+    </div>
+    <div class="column">
+        <ul>
+            <li class="column_item">a</li>
+            <li class="column_item">b</li>
+            <li class="column_item">c</li>
+            <li class="column_item">d</li>
+            <li class="column_item">e</li>
+            <li class="column_item">f</li>
+            <li class="column_item">g</li>
+            <li class="column_item">h</li>
+        </ul>
+    </div>
+    <div class="row">
+        <ul>
+            <li class="row_item">1</li>
+            <li class="row_item">2</li>
+            <li class="row_item">3</li>
+            <li class="row_item">4</li>
+            <li class="row_item">5</li>
+            <li class="row_item">6</li>
+            <li class="row_item">7</li>
+            <li class="row_item">8</li>
+        </ul>
+    </div>
+    
+    <div class="mobileDiv">
+        <div class="boardNotation">
+            <div class="boardNotationHeading">
+                <h4>Board Notations</h4>
+            </div>
+            <div class="currentNodeBox">
+                <div class="currentNodeSquareBox">
+                    <i class="fas fa-chess-knight"></i>
+                </div>
+                <div class="currentNodeBoxText">
+                    Current Square
+                </div>
+            </div>
+            <div class="visitedNodeBox">
+                <div class="visitedNodeSquareBox">
+                    <div class="visitedNodeSquareBoxCircle"></div>
+                </div>
+                <div class="visitedNodeBoxText">
+                    Visited Square
+                </div>
+            </div>
+        </div>
+        <div class="boardDetailes">
+            <div class="boardDetailesHeading">
+                <h4>Board Detailes</h4>
+            </div>
+            <div class="boardDetailesContainer">
+                <div class="boardDetailesFirstSquare">
+                    <div class="firstSquareText">Start Square</div>
+                    <div class="firstSquareValue">
+                        <h4 id="firstSquare">A8</h4>
+                    </div>
+                </div>
+                <div class="boardDetailesFirstSquare">
+                    <div class="firstSquareText">Current Square</div>
+                    <div class="firstSquareValue">
+                        <h4 id="currentSquare">A8</h4>
+                    </div>
+                </div>
+                <div class="boardDetailesFirstSquare">
+                    <div class="firstSquareText">Move Number</div>
+                    <div class="firstSquareValue">
+                        <h4 id="moveNumber">00</h4>
+                    </div>
+                </div>
+                <div class="boardDetailesFirstSquare">
+                    <div class="firstSquareText">Total Visited</div>
+                    <div class="firstSquareValue">
+                        <h4 id="totalIter">000</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="controlBoard">
+            <a class="btn" id="btn">START</a> 
+        </div>
+    </div>
+    <img src="./images/mobile4.png" alt="mobile" class="mobile">
+    <img src="https://data.whicdn.com/images/339800769/original.jpg" alt="background" class="mobileBackground">
+    <script src="https://kit.fontawesome.com/d180bdec04.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/CSSRulePlugin.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/color.js"></script>
+</body>
+</body>
+</html>
